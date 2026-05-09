@@ -74,7 +74,7 @@ export default function CTCCalculator() {
         <Text>
           The Child Tax Credit provides up to $2,000 per qualifying child in
           2024, or $1,000 beginning in 2026. Enter your information below to see
-          how much you'll be eligible for.
+          how much you&apos;ll be eligible for.
         </Text>
         <Anchor
           href="https://policyengine.org/us/research/the-child-tax-credit-in-2023"
@@ -168,7 +168,7 @@ export default function CTCCalculator() {
           <Title order={4}>Assumptions</Title>
           <Text component="ul" size="sm" c="dimmed">
             <li>
-              All earnings are from the tax filer's wages, salaries, and tips.
+              All earnings are from the tax filer&apos;s wages, salaries, and tips.
             </li>
             <li>The filer has no other taxable income.</li>
             <li>The filer takes the standard deduction.</li>
