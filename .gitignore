@@ -1,6 +1,11 @@
 # Node
 node_modules/
 dist/
+.next/
+out/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
