@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import PolicyEngineHeader from '@/components/PolicyEngineHeader';
 import './globals.css';
 
 const TITLE = 'CTC Calculator | PolicyEngine';
@@ -24,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <PolicyEngineHeader />
+        {children}
+      </body>
     </html>
   );
 }
